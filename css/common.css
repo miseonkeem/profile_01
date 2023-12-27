@@ -1,0 +1,29 @@
+.section_style{
+    text-align: center;
+    padding: 4rem;
+    font-size: 0.6rem;
+    color:black;
+    background: var(--color-orange);
+    
+}
+
+.section_style2{
+    text-align: center;
+    padding: 4rem;
+    font-size: 0.6rem;
+    color:white;
+    background: var(--color-black);
+    
+}
+/*,이후 추가*/
+
+button{
+    background-color:transparent;
+    outline: 0;
+    border: 0;
+} /*버튼에 라인 삭제*/
+
+button:focus{
+    outline: 1px solid transparent;
+
+}
