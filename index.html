@@ -4,33 +4,356 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- SEO 시작 -->
-    <title> KEEMMISEON FORTFOLIO </title>
+    <title> KEEMMISEON PORTFOLIO </title>
     <meta name="description" content="web/app software engineer"/>
     <meta name="author" content="KEEM HOME"/>
-    <link rel="shortcut icon" href="images/miseon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="images/mee.ico" type="image/x-icon"/>
 
     <!-- OG(open graph data)시작 -->
-    <meta property="og:title" content="KEEMMISEON FORTFOLIO"/>
+    <meta property="og:title" content="KEEMMISEON PORTFOLIO"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://miseonkeem.github.io/profile_01/index.html">
-    <meta property="og:image" content="https://miseonkeem.github.io/profile_01/images/music.PNG">
+    <meta property="og:url" content="https://miseon.dothome.co.kr/profile_01/index.html">
+    <meta property="og:image" content="./images/link.png">
+
+    <!--구글 아이콘-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
     <!-- 구글 폰트 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-<style type="text/css" rel="stylesheet">
-   body{
-   font-family: 'Roboto', sans-serif;
-   font-size: 20pt;
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
+    <link href="./css/main_home.css" type="text/css" rel="stylesheet">
+    <link href="./css/common.css" type="text/css" rel="stylesheet">
+    <link href="./css/about.css" type="text/css" rel="stylesheet">
+    <link href="./css/skills.css" type="text/css" rel="stylesheet">
+    <link href="./css/work.css" type="text/css" rel="stylesheet">
+    <link href="./css/top.css" type="text/css" rel="stylesheet">
+    <link href="./css/footer.css" type="text/css" rel="stylesheet">
+    <link href="./css/media_768.css" type="text/css" rel="stylesheet">
 
-    }
-</style>
+    <!--java 링크 시작-->
+    <script type="module" src="./js/main.js" defer></script>
+    <script type="module" src="./js/main_02.js" defer></script>
+    <script type="module" src="./js/main_03.js" defer></script>
+    <script type="module" src="./js/main_04.js" defer></script>
+    <script type="module" src="./js/main_05.js" defer></script>
+       
+        
+    
+
+
 </head>
 <body>
+    <!--Header시작-->
+    <header class="header">
+        <div class="header_logo">
+            <img class="header_logo_img" src="./images/mi.png" alt="logo" alt="34" />
+            <h1 class="header_logo_title">
+                <a href="#"> &nbsp; </a>
+            </h1>
+        </div>
 
-    KEEMMISEON FORTFOLIO
+        <!--우측 네비메뉴 시작-->
+        <nav class="header_nav">
+            <ul class="header_menu">
+                <li><a class="header_menu_item active" href="#home"> HOME </a></li>
+                <li><a class="header_menu_item" href="#about"> ABOUT </a></li>
+                <li><a class="header_menu_item" href="#skills"> SKILLS </a></li>
+                <li><a class="header_menu_item" href="#work"> MY WORK </a></li>
+                <li><a class="header_menu_item" href="#contact"> CONTACT </a></li>
+            </ul>
+        </nav>
+
+        <!-- 햄버거 버튼 PC display: none;-->
+        <!-- 햄버거 버튼 MO display: block;-->
+
+        <div class="hamburger">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </div>
+    </header>
+
+    <!--main 시작-->
+    <main>
+        <!-- Home 시작-->
+        <section id="home" class="section_style" href="#home">
+            <div class="home_container"> <!--java-->
+                <img class="home_avatar" src="./images/one.png" alt="mimi images" width="250">
+                <h2 class="section_title">
+                  MISEON KEEM - PORTFOLIO
+                </h2>
+                <p class="section_description"> WEB Publisher | UIUX Designer<br></p>
+                <a class="section_contact" href="#contact"> CONTACT</a>
+            </div>
+
+
+
+        </section>
+
+        <!-- About 시작-->
+        <section id="about" class="section_style">
+            <h2> ABOUT ME</h2>
+            <p>
+                
+                <h3>웹퍼블리셔 | UIUX 디자이너 김미선입니다.</h3>
+            </p>
+            <ul class="about_content">
+                <li class="about_box">
+                    <div class="about_icon">
+                    <span class="material-symbols-outlined "  style="font-size:2.2rem;">
+                        captive_portal
+                        </span>
+                    </div>
+                    <p class="about_title"> FRONT - END</p>
+                    <p class="about_text"> HTML, CSS, JavaScript, React</p>
+                </li>
+                <li class="about_box">
+                    <div class="about_icon">
+                    <span class="material-symbols-outlined" style="font-size:2.2rem;">
+                        responsive_layout
+                        </span>
+                    </div>
+                    <p class="about_title"> DESIGN</p>
+                    <p class="about_text"> Photoshop, Illustrator, Figma </p>
+                </li>
+                <li class="about_box">
+                    <div class="about_icon">
+                    <span class="material-symbols-outlined"  style="font-size:2.2rem;">
+                        shapes
+                        </span>
+                    </div>
+                    <p class="about_title"> WEB 관련 외 </p>
+                    <p class="about_text"> - </p>
+                </li>
+            </ul>
+
+        </section>
+
+
+        <!--skill 시작-->
+        <section id="skills" class="section_style">
+            <h2> SKILLS </h2>
+            <p class="skills_txt">
+                Coding  Design  Etc
+            </p>
+            <div class="skills_content">
+                <section class="skills_coding">
+                    <h3 class="skills_title"> CODING SKILLS </h3>
+                        <ul>
+                            <li class="skills_bar">
+                                <div class="bar_text">
+                                    <span> HTML </span>
+                                    <span> 50% </span>
+                                </div>
+                                <div class="bar_bg">
+                                    <div class="bar_value" style="width: 50%"></div>
+                                </div>
+                            </li>
+
+                            <li class="skills_bar">
+                                <div class="bar_text">
+                                    <span> CSS </span>
+                                    <span> 50% </span>
+                                </div>
+                                <div class="bar_bg">
+                                    <div class="bar_value" style="width:50%"></div>
+                                </div>
+                            </li>
+                            <li class="skills_bar">
+                                <div class="bar_text">
+                                    <span> JavaScript </span>
+                                    <span> 10% </span>
+                                </div>
+                                <div class="bar_bg">
+                                    <div class="bar_value" style="width: 10%"></div>
+                                </div>
+                            </li>
+                            <li class="skills_bar">
+                                <div class="bar_text">
+                                    <span>React </span>
+                                    <span> 10% </span>
+                                </div>
+                                <div class="bar_bg">
+                                    <div class="bar_value" style="width: 10%"></div>
+                                </div>
+                            </li>
+                        </ul>
+                </section>
+                <section class="skills_tools">
+                    <h3 class="skills_title"> DESIGN </h3>
+                    <span class="material-symbols-outlined">
+                        check_indeterminate_small
+                        </span>
+                        <ul>
+                            <li class="bar_text_02">Photoshop</li>
+                            <li class="bar_text_02"> Illustrator</li>
+                            <li class="bar_text_02"> Figma</li>
+                            <li class="bar_text_02"> Etc </li>
+                        </ul>
+                </section>
+                <section class="skills_etc">
+                    <h3 class="skills_title"> ETC </h3>
+                    <span class="material-symbols-outlined">
+                        check_indeterminate_small
+                        </span>
+                        <ul>
+                            <li class="bar_text_02"> 먹고 </li>
+                            <li class="bar_text_02"> 놀고 </li>
+                            <li class="bar_text_02"> 자고 </li>
+                        </ul>
+                </section>
+            </div>
+ 
+        </section>
+
+        <!--Work 시작-->
+        <section id="work" class="section_style">
+            <h2 class="title"> WORK </h2>
+            <p class="description">
+                PROJECT    
+            </p>
+
+            <ul class="category">
+                <li> <button class="category_button category_selected" data-category="all">
+                    ALL
+                    <span class="work_count"> 8 </span> </button>
+                </li>
+
+                <li> <button class="category_button" data-category="front-end">
+                    FRONT-END
+                    <span class="work_count">3</span> </button>
+                </li>
+
+                <li><button class="category_button" data-category="design">
+                    DESIGN
+                    <span class="work_count">3</span> </button>
+                </li>
+
+                <li><button class="category_button" data-category="mobile">
+                    MOBILE
+                    <span class="work_count">2</span> </button>
+                
+                </li>
+            </ul>
+
+          
+            <ul class="project_all">
+                <li class="project" data-type="front-end">
+                    <a href="#work" target="_blank">
+                        <img src="images/1.jpg" alt="project_01 이미지" class="project_img" />
+                        <div class="project_text">
+                            <h3 class="project_title"> PROJECT 01 </h3>
+                            <p> WORK </p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="project" data-type="front-end">
+                    <a href="#" target="_blank">
+                        <img src="images/1.jpg" alt="project_02 이미지" class="project_img" />
+                        <div class="project_text">
+                            <h3 class="project_title"> PROJECT 02 </h3>
+                            <p> WORK </p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="project" data-type="front-end">
+                    <a href="#" target="_blank">
+                        <img src="images/1.jpg" alt="project_03 이미지" class="project_img" />
+                        <div class="project_text">
+                            <h3 class="project_title"> PROJECT 03 </h3>
+                            <p> WORK </p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="project" data-type="design">
+                    <a href="#" target="_blank">
+                        <img src="images/2.jpg" alt="project_04 이미지" class="project_img" />
+                        <div class="project_text">
+                            <h3 class="project_title"> PROJECT 04 </h3>
+                            <p> WORK </p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="project" data-type="design">
+                    <a href="#" target="_blank">
+                        <img src="images/2.jpg" alt="project_05 이미지" class="project_img" />
+                        <div class="project_text">
+                            <h3 class="project_title"> PROJECT 05 </h3>
+                            <p> WORK </p>
+                        </div>
+                    </a>
+                </li>
+                
+                <li class="project" data-type="design">
+                    <a href="#" target="_blank">
+                        <img src="images/2.jpg" alt="project_06 이미지" class="project_img" />
+                        <div class="project_text">
+                            <h3 class="project_title"> PROJECT 06 </h3>
+                            <p> WORK </p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="project" data-type="mobile">
+                    <a href="#" target="_blank">
+                        <img src="images/music.png" alt="project_07 이미지" class="project_img" />
+                        <div class="project_text">
+                            <h3 class="project_title"> PROJECT 07 </h3>
+                            <p> WORK </p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="project" data-type="mobile">
+                    <a href="#" target="_blank">
+                        <img src="images/music.png" alt="project_08 이미지" class="project_img" />
+                        <div class="project_text">
+                            <h3 class="project_title"> PROJECT 08 </h3>
+                            <p> WORK </p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+
+        </section>
+
+        <!--TOP 버튼-->
+        <aside>
+            <a class="arrow_up" href="#home" title="top_button">
+                <span class="material-symbols-outlined">
+                    expand_less
+                    </span> 
+            </a>
+        </aside>
+    </main>
+
+    <!--footer 시작-->
+    <footer id="contact" class="section_style">
+        <h2 class="title"> CONTACT</h2>
+        <P class="description">
+            KEEMMISEON | 1992. 01. 18
+        </P>
+        <ul class="contact_all">
+            <li>
+                <div class="contact_icon" target="_blank" title="phone number">
+                      <b>Email.</b>  rlaaltjs5731@naver.com
+                </div>
+            </li>
+            <li>
+                <div class="contact_icon" target="_blank" title="email">
+                    <b>Tel.</b> 01064705731
+                </div>
+            </li>
+        </ul>
+    </footer>
 
 
 </body>
