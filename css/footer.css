@@ -1,0 +1,21 @@
+#contact{
+    background-color:var(--color-orange) ;
+    color: black;
+}
+
+.contact_all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 1rem;
+    color: black;
+    white-space: nowrap;
+}
+
+
+
+.contact_icon{
+    color:black;
+    font-size:0.7rem;
+}
