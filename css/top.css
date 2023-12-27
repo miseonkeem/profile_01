@@ -1,0 +1,18 @@
+.arrow_up{
+    position: fixed;
+    text-align: center;
+    right: 2rem;
+    bottom: 2rem;
+    width:2rem;
+    height: 2rem;
+    padding-top: 0.3rem;
+    line-height: 2rem;
+    border-radius: 100%;
+    background-color: var(--color-orange);
+
+    /*java추가 기능*/
+    transition: all 1000ms;
+    opacity: 0;  /*처음에는 안나오게 오퍼시티 영 */
+}
+
+
