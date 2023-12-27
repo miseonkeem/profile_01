@@ -1,0 +1,116 @@
+/*Global*/
+
+:root{
+    /*COLORS*/
+    --color-white: #fff;
+    --color-black: #000000;
+    --color-orange: #ff6c00;
+    --color-green: #004216;
+    --color-gray: #4d4d4d;
+    
+    /*App Colors*/
+    --color-primary: var(--color-black);
+    --color-primary-varient: var(--color-gray);
+
+    --color-account: var(--color-orange);
+    --color-account-varient: var(--color-green);
+    --color-text: var(--color-white);
+}
+
+*{box-sizing:border-box;} /*기본적인 여백값을 없애려면 마진패딩 빵빵 만들기*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+html, body{
+    font-family: 'Roboto', sans-serif;
+    font-size:15pt;
+    margin: 0;
+    padding: 0;
+}
+     h2, h3, p, ul{
+        margin:0;
+        padding: 0;
+    }
+     ul{ list-style: none;}
+     
+     a{
+         text-decoration:none;
+         color: var(--color-text);
+     }
+
+
+/*header*/
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #111111;
+    padding: 1rem;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center; 
+    z-index: 9999;
+    
+}
+
+
+    .header.header-dark{
+        background-color: #000;
+    }
+
+    
+
+    .header_logo{
+        display:flex;
+        align-items: center;
+        gap: 8px;
+    }
+        .header_logo_img{
+            width:400px;
+            height:154px;
+
+        }
+        .header_logo_title{
+            
+            font-size: 1rem;
+        }
+    .header_nav{
+        display: flex;
+        justify-content : flex-end;
+        cursor: default;
+    }
+
+
+    .header_menu{
+        display: flex;
+        justify-content:center;
+        gap: 100px;
+
+        }
+        .header_menu_item{
+            display: block;
+            padding: 7px 16px;
+            border-bottom: 1px solid transparent;
+        }
+
+        .header_menu_item:hover {
+            border-bottom: 4px solid var(--color-orange) ;
+        }
+
+        .header_menu_item.active{
+            color: var(--color-orange);
+        }
+
+    .hamburger{ display:none;}
+
+    
+
+
+
+
