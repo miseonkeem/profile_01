@@ -1,0 +1,87 @@
+#skills{
+    background-color:  var(--color-primary);
+    color: var(--color-text);
+}
+
+    .skills_txt{margin-bottom : 3rem;}
+    
+.skills_content{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 6fr 4fr;
+    margin: 2rem 3rem;
+    grid-template-areas:
+    "a b"
+    "a c";
+
+    transition: all 5s;
+    opacity: 0%;
+}
+
+.skills_coding{
+    grid-area: a;
+    padding : 1rem;
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    
+}
+
+.skills_tools{
+    grid-area: b;
+    padding: 1rem;
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+}
+
+.skills_etc{
+    grid-area: c;
+    padding: 1rem;
+    background-color:rgb(54, 54, 54);
+    text-align: center;
+}
+
+
+/* skills bar 시작 */
+
+.skills_bar{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 0.5rem;
+}
+    .bar_text{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .bar_bg{
+        width:100%;
+        height: 3px;
+        background-color:black;
+    }
+        .bar_value{
+            height: 3px;
+            background-color: var(--color-orange);
+        }
+
+
+
+/*text처리*/
+.skills_title{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 0.8rem;
+}
+
+.bar_text_02{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+
